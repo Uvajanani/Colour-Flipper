@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+#heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(180, 32, 32);
+    margin: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#color{
+    float: right;
+
+
+}
+
+
+#wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    border-top: 3px solid #323232;
+
+}
+button{
+    color: white;
+    background-color: red;
+    padding: 12px;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+}
